@@ -1,10 +1,22 @@
 import React from 'react'
+import { Awards } from './awards/Awards'
+import Featured from './featured/Featured'
 import Hero from './Hero/Hero'
+import Location from './location/Location'
+import Recent from './recent/Recent'
+import Team from "./team/Team"
+import Price from "./price/Price"
 
 const Home = () => {
   return (
     <>
         <Hero/>
+        <Featured />
+        <Recent/>
+        <Awards />
+        <Location />
+        <Team />
+        <Price />
     </>
   )
 }
